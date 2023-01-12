@@ -1,0 +1,27 @@
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.app{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.plus{
+  background: aquamarine;
+  outline: none;
+  border: none;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.minus{
+  background: red;
+  outline: none;
+  border: none;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
